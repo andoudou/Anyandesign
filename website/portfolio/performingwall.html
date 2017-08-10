@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Performing Wall</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/home_normalize.css">
+  <link rel="stylesheet" href="CSS/home_skeleton.css">
+  <link rel="stylesheet" href="CSS/home.css">
+
+  <script type="text/javascript" src="JavaScript/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="JavaScript/home_new.js"></script>
+</head>
+<body>
+<div id="navibar">
+	<div id="bar">
+		<a id="home" href="../index.html"><div id="logo"></div></a>
+		<div id="navi">
+			<ul>
+				<li class="underline scroll_projects"><a class="menu">PROJECTS</a></li>&nbsp; &nbsp; &nbsp; &nbsp;
+				<li class="underline"><a class="menu" href="">ABOUT</a></li>&nbsp; &nbsp; &nbsp; &nbsp;
+				<li class="underline">
+					<a class="menu">
+						<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn">DOWNLOAD</button>
+							<div id="myDropdown" class="dropdown-content">
+								<a class="seconedbtn">PORTFOLIO</a>
+								<a class="seconedbtn" href="files/anyan_resume.pdf" target="_blank">RESUME</a>
+							</div>
+						</div>
+					</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="">
+    <img src="images/projects/performingwall/Performingwall1.jpg" width="100%" />
+    <img src="images/projects/performingwall/Performingwall2.jpg" width="100%" />
+    <img src="images/projects/performingwall/Performingwall3.jpg" width="100%" />
+    <img src="images/projects/performingwall/Performingwall4.jpg" width="100%" />
+    <img src="images/projects/performingwall/Performingwall5.jpg" width="100%" />
+    <img src="images/projects/performingwall/Performingwall6.jpg" width="100%" />
+  </div>
+
+
+</body>
+<script>/*dropdown*/
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+        }
+    }
+}
+</script>
+</html>
