@@ -195,7 +195,9 @@
             </div>
             <div id="topbar">
                 <div id="top"><a class="scroll_top">TOP</a></div>
-                <div id="rights"><a>AnYan 2017 All rights reserved.</a></div>
+                <div id="rights">
+                    <a>AnYan <span id="year"></span> All rights reserved.</a>
+                </div>
             </div>
 
             <div id="sayhi">
@@ -212,7 +214,7 @@
     }
 
     // Close the dropdown if the user clicks outside of it
-    window.onclick = function (event) {
+    window.onclick = function(event) {
         if (!event.target.matches('.dropbtn')) {
 
             var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -225,7 +227,6 @@
             }
         }
     }
-
 </script>
 
 </html>
