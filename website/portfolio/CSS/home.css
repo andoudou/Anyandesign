@@ -116,10 +116,10 @@ body {
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
-    -moz-transform: scale(1, 1);
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-    background: url('../images/station_HD.jpg') no-repeat center;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    background: url('../images/building.jpg') no-repeat center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
@@ -172,38 +172,34 @@ body {
 }
 
 #photoinfo {
-    position: absolute;
-    top: 94vmin;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
-    left: 0;
-    text-align: right;
-    color: #bbb;
-    font-size: 0.8vmax;
-    letter-spacing: 1px;
-    font-style: italic;
-    z-index: 20;
-}
-
-#godown {
-    position: absolute;
-    width: 100%;
-    top: 90vh;
-    z-index: 30;
+  position: absolute;
+  bottom: 5vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  text-align: right;
+  color: #bbb;
+  font-size: 0.8vmax;
+  letter-spacing: 1px;
+  font-style: italic;
+  z-index: 20;
 }
 
 #godownbtn {
-    position: relative;
-    background: url('../images/icon/godown.svg') no-repeat center;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
-    left: 0;
-    width: 10%;
-    height: 60px;
-    opacity: 0.5;
+  position: absolute;
+  background: rgba(255, 255, 255, 0) url('../images/icon/godown.svg') no-repeat center;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+  width: 10%;
+  height: 50px;
+  bottom: 5vh;
+  opacity: 0.5;
+  z-index: 100;
 }
 
 .container {
@@ -289,12 +285,12 @@ body {
 
 #picture1 {
     background: url('../images/thumbnail/foodS.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #picture2 {
     background: #A1B2C5;
-    background-size: contain;
+    background-size: cover;
 }
 
 #picture3 {

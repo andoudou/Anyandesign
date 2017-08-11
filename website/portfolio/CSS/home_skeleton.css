@@ -42,8 +42,9 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 25vw;
+    height: 62vw;
 }
+
 
 
 /* For devices larger than 140px */
@@ -241,6 +242,10 @@ there.
 
 
 @media (min-device-width: 1025px) {
+
+  .picture {
+      height: 25vw;
+  }
   .ground{
     color: #B7C8D4;
     background: #fff;
