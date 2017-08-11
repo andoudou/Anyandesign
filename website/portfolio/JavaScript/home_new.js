@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
 
     //navigation transform when scrolling
-    $(window).scroll(function() {
+    var scroll = function() {
         if ($("body").scrollTop() > 0.1 * $(window).height()) {
             $('#navibar').css("position", "fixed");
             $('#navibar').css("background-color", "rgba(255,255,255,1)");
@@ -41,6 +41,10 @@ $(document).ready(function() {
             $('#logo').css("background", "url('http://www.anyandesign.cn/portfolio/images/icon/logo1.svg') no-repeat center");
             $('#logo').css("background-size", "100%");
         }
+    }
+
+    $(window).scroll(function() {
+        scroll();
     });
 
     // hide words in banner
@@ -67,5 +71,7 @@ $(document).ready(function() {
             }
         });
     };
+
+    scroll();
     rotate([$("#s2"), $("#s3"), $("#s4")], 0, 2000);
 });
