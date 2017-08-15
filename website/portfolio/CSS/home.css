@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Avenir', 'Trebuchet MS', 'Vernada', 'Helvetica', sans-serif;    
+    font-family: 'Avenir', 'Trebuchet MS', 'Vernada', 'Helvetica', sans-serif;
     font-weight: lighter;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
-    color: #222;
+    color: #000;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
     padding-top: 110px;
     font-size: 14px;
     letter-spacing: 2px;
-    color: #222;
+    color: #000;
     transition: all 0.5s;
 }
 
@@ -77,7 +77,100 @@ body {
 .menu {
     text-decoration: none;
     color: inherit;
-    font-weight: 500;
+    font-weight: 300;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: 300;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    width: auto;
+    overflow: auto;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    margin: 15px 30px 15px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    border-bottom: solid 1px #000;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tooltip {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/con1.svg') no-repeat 50% 0;
+    background-size: 124px 30px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    height: 140px;
+    background: url('../images/wechat.png') no-repeat center;
+    background-size: cover;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -70px;
+    z-index: 100;
+    opacity: 0;
+    transition: .5s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    opacity: 1;
 }
 
 .underline {
@@ -90,12 +183,13 @@ body {
     content: "";
     width: 0;
     height: 1px;
-    background: #222;
+    background: #000;
     position: absolute;
     top: 100%;
     left: 50%;
     transition: all .5s;
 }
+
 .underline:hover:after {
     left: 0;
     width: 100%;
@@ -129,10 +223,11 @@ body {
     -moz-transition: all 1s;
     -webkit-transition: all 1s;
     transition: all 1s;
-    -moz-transform: scale(1,1);
-    -webkit-transform: scale(1,1);
-    transform: scale(1,1);
-    background: url('../images/lighting.jpg') no-repeat bottom ;
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    background: url('../images/whale.jpg') no-repeat top;
+    background-attachment: fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
@@ -154,7 +249,7 @@ body {
     right: 0;
     left: 0;
     top: 42vmin;
-    color: #222;
+    color: #000;
     font-size: 5vmax;
     letter-spacing: 2px;
     z-index: 20;
@@ -193,7 +288,7 @@ body {
     right: 0;
     left: 0;
     text-align: right;
-    color: #222;
+    color: #888;
     opacity: 0.5;
     font-size: 0.8vmax;
     letter-spacing: 1px;
@@ -229,7 +324,7 @@ body {
 
 #describ p {
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 
@@ -281,7 +376,7 @@ body {
 }
 
 .picture span {
-    color: #222;
+    color: #000;
 }
 
 .eng_name {
@@ -298,6 +393,7 @@ body {
     font-size: 12px;
     font-weight: normal;
 }
+
 #picture2 div {
     background: url('../images/thumbnail/learning.jpg') no-repeat center;
     background-size: cover;
@@ -356,84 +452,4 @@ body {
 #picture9 {
     background: url('../images/thumbnail/furniture.jpg') no-repeat center;
     background-size: cover;
-}
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    font-weight: 500;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);
-    margin: 0;
-    width: auto;
-    overflow: auto;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    margin: 15px 30px 15px 10px;
-    text-decoration: none;
-    display: block;
-    font-weight: 500;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    border-bottom: solid 1px #222;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-
-.tooltip {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url('../images/icon/con1.svg') no-repeat 50% 0;
-    background-size: 124px 30px;
-    transition: all .2s;
-    cursor: pointer;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 140px;
-    height: 140px;
-    background: url('../images/wechat.png') no-repeat center;
-    background-size: cover;
-    border-radius: 2px;
-    position: absolute;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -70px;
-    z-index: 100;
-    opacity: 0;
-    transition: .5s;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-    opacity: 1;
 }
