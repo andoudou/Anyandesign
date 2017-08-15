@@ -164,17 +164,17 @@ body {
 }
 
 .container {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 100vmin;
-    height: inherit;
+    height: auto;
     z-index: 50;
     padding-bottom: 34vmax;
 }
 
 .page {
     /*padding-top: 10vmax;*/
-    padding-bottom: 25vmax;
+    padding-bottom: 50vmax;
 }
 
 #wrap {
@@ -194,7 +194,7 @@ body {
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
-    background: url('../images/whale.jpg') no-repeat top;
+    background: url('../images/vase2.jpg') no-repeat bottom;
     background-attachment: fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -218,8 +218,9 @@ body {
     left: 0;
     top: 44vmin;
     color: #000;
-    font-size: 4.5vmax;
+    font-size: 3vmax;
     letter-spacing: 2px;
+    text-align: center;
     z-index: 20;
 }
 
@@ -230,21 +231,6 @@ body {
 #change {
     position: absolute;
     text-align: center;
-}
-
-#s2 {
-    position: absolute;
-    left: 0
-}
-
-#s3 {
-    position: absolute;
-    left: 0;
-}
-
-#s4 {
-    position: absolute;
-    left: 0;
 }
 
 #photoinfo {
@@ -296,130 +282,46 @@ body {
     letter-spacing: 1px;
 }
 
-.row {
+#list {
     position: relative;
-    width: 100%;
-    height: auto;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
-    padding: 0 0 0 0;
 }
 
-.picture {
+#ca {
     position: relative;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    float: left;
+    width: 50%;
+    background: #fafafa;
+    border: 0.5px solid #eeeeee;
 }
 
-.text {
-    background: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: 0;
-    opacity: 0;
-    letter-spacing: -1px;
-    transition: all 0.5s;
+#cb {
+    position: relative;
+    float: left;
+    width: 50%;
+    background: #f8f8f8;
+    border: 0.5px solid #eeeeee;
 }
 
-.text:hover {
-    opacity: 1;
-    letter-spacing: 1px;
+.proa,
+.prob {
+    position: relative;
+    /*background: rgb(210, 171, 171);*/
+    width: 80%;
+    height: auto;
+    padding-bottom: 20%;
 }
 
-.text span {
-    position: absolute;
-    width: 100%;
-    top: 40%;
+.prob {
+    margin-left: 20%;
 }
 
-.picture p {
-    text-align: center;
-    text-decoration: none;
-}
-
-.picture span {
-    color: #000;
-}
-
-.eng_name {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.work_class {
-    font-size: 14px;
-    font-weight: lighter;
-}
-
-.ch_name {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-#picture2 div {
-    background: url('../images/thumbnail/learning.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture4 div {
-    background: url('../images/thumbnail/thinking.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture8 div {
-    background: url('../images/thumbnail/practice.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture1 {
-    background: url('../images/thumbnail/food.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture2 {
-    background: url('../images/thumbnail/learning.svg') no-repeat center;
-    background-size: cover;
-}
-
-#picture3 {
-    background: url('../images/thumbnail/wall.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture4 {
-    background: url('../images/thumbnail/thinking.svg') no-repeat center;
-    background-size: cover;
-}
-
-#picture5 {
-    background: url('../images/thumbnail/leyue.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture6 {
-    background: url('../images/thumbnail/lightingroom.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture7 {
-    background: url('../images/thumbnail/bike.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture8 {
-    background: url('../images/thumbnail/practice.svg') no-repeat center;
-    background-size: cover;
-}
-
-#picture9 {
-    background: url('../images/thumbnail/furniture.jpg') no-repeat center;
-    background-size: cover;
+#pro2 {
+    margin-top: 60%;
 }
 
 .tooltip {
