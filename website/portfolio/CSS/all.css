@@ -62,13 +62,25 @@
     margin-left: 20%;
 }
 
+.proa img:hover,
+.prob img:hover {
+    opacity: 0.5;
+    transition: .5s;
+}
+
 #pro2 {
     margin-top: 60%;
 }
 
 .intro h3 {
+    position: absolute;
     line-height: 1;
-    line-height: 3;
+    margin: 25px 0;
+}
+
+.intro div {
+    width: auto;
+    height: 60px;
 }
 
 .intro h5 {
@@ -80,6 +92,12 @@
 
 .intro p {
     line-height: 1.5;
+}
+
+.intro:hover p {
+    color: #aaa;
+    transition: .2s;
+    ;
 }
 
 #ground {

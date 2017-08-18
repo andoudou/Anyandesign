@@ -14,11 +14,12 @@
     margin-right: auto;
     right: 0;
     left: 0;
-    padding: 6vmax 0 8vmax 0;
+    padding: 8vmax 0 8vmax 0;
+    text-align: center;
 }
 
 .catalogou h3 {
-    padding-bottom: 5vmax;
+    padding-bottom: 6vmax;
 }
 
 .table {
@@ -30,15 +31,74 @@
 }
 
 .queue {
-    background: purle;
     width: 24%;
     height: 150px;
     display: inline-table;
 }
 
+.queue a:hover {
+    color: #FF009D;
+    transition: .2s;
+}
+
 .table li,
 a {
     font-weight: 400;
+}
+
+.catalogouicon {
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    margin-bottom: 40px;
+}
+
+#catalogouicon1 {
+    background: url('../images/icon/interaction.svg') no-repeat center;
+    background-size: cover;
+}
+
+#catalogouicon2 {
+    background: url('../images/icon/infographic.svg') no-repeat center;
+    background-size: cover;
+}
+
+#catalogouicon3 {
+    background: url('../images/icon/industrial.svg') no-repeat center;
+    background-size: cover;
+}
+
+#catalogouicon4 {
+    background: url('../images/icon/other.svg') no-repeat center;
+    background-size: cover;
+}
+
+.queue:hover div {
+    transform: scale(1.2, 1.2);
+    transition: .5s;
+}
+
+.queue:hover #catalogouicon1 {
+    background: url('../images/icon/interaction2.svg') no-repeat center;
+    transition: .2s;
+}
+
+.queue:hover #catalogouicon2 {
+    background: url('../images/icon/infographic2.svg') no-repeat center;
+    transition: .2s;
+}
+
+.queue:hover #catalogouicon3 {
+    background: url('../images/icon/industrial2.svg') no-repeat center;
+    transition: .2s;
+}
+
+.queue:hover #catalogouicon4 {
+    background: url('../images/icon/other2.svg') no-repeat center;
+    transition: .2s;
 }
 
 
@@ -79,6 +139,12 @@ td a {
     right: 0;
     left: 0;
     z-index: 50;
+    top: 1vh;
+    transition: .2s;
+}
+
+#top:hover {
+    top: 0.5vh;
 }
 
 #sayhi {

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3452 735 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #ff009d;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(2019)">
+    <g id="Ellipse_52" data-name="Ellipse 52" class="cls-1" transform="translate(1433 735)">
+      <circle class="cls-4" cx="64" cy="64" r="64"/>
+      <circle class="cls-5" cx="64" cy="64" r="63"/>
+    </g>
+    <g id="Ellipse_53" data-name="Ellipse 53" class="cls-2" transform="translate(1489 772)">
+      <circle class="cls-4" cx="7.5" cy="7.5" r="7.5"/>
+      <circle class="cls-5" cx="7.5" cy="7.5" r="7"/>
+    </g>
+    <path id="Path_50" data-name="Path 50" class="cls-2" d="M.5.007h9.8V5.328H.5" transform="translate(1494 773.82) rotate(-90)"/>
+    <path id="Path_51" data-name="Path 51" class="cls-2" d="M.5.5H45.321V5.746H.5" transform="translate(1501.896 783.11) rotate(60)"/>
+    <path id="Path_52" data-name="Path 52" class="cls-2" d="M.5.5H45.171V5.746H.5" transform="translate(1496.562 786.363) rotate(120)"/>
+    <path id="Path_54" data-name="Path 54" class="cls-2" d="M3558.114,807.226c3.354-3.535,5.714-8.85,5.714-15.635" transform="translate(-2043)"/>
+    <path id="Path_55" data-name="Path 55" class="cls-2" d="M3525.213,810.243c8,5.912,20.093,6.039,28.85.388" transform="translate(-2043)"/>
+    <path id="Path_57" data-name="Path 57" class="cls-2" d="M3516.3,791.592a23.016,23.016,0,0,0,5.112,15.1" transform="translate(-2043)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-1" d="M3514.324,823.8v12.321" transform="translate(-1933.151 1867.356) rotate(-30)"/>
+    <path id="Path_59" data-name="Path 59" class="cls-1" d="M3514.324,823.8v12.321" transform="translate(-1160.189 -1646.968) rotate(30)"/>
+    <g id="Ellipse_54" data-name="Ellipse 54" class="cls-3" transform="translate(1495 778)">
+      <circle class="cls-4" cx="1.5" cy="1.5" r="1.5"/>
+      <circle class="cls-5" cx="1.5" cy="1.5" r="1"/>
+    </g>
+  </g>
+</svg>
