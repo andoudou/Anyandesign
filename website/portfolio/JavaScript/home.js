@@ -60,7 +60,7 @@ var writeCopyrightYear = function() {
 };
 
 $(document).ready(function() {
-    //向下滚动的时候显示图片
+    // 滚动到指定位置
     // Bind Events
     // language=JQuery-CSS
     $('.scroll_top').click(function() {
@@ -75,13 +75,13 @@ $(document).ready(function() {
         scroll();
     });
 
-    // hide words in banner
-    var $img = $('img');
-    $img.hide().each(function(index) {
-        $(this).delay(800 * index).fadeToggle(700);
-    });
-
     writeCopyrightYear();
     scroll();
     rotate([$("#s2"), $("#s3"), $("#s4")], 0, 2000);
+
+    // 延时加载图片
+    /*var $img = $('img');
+    $img.hide().each(function(index) {
+        $(this).delay(800 * index).fadeToggle(700);
+    });*/
 });

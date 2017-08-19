@@ -81,7 +81,9 @@
     top: 40%;
 }
 
-.picture p {
+.eng_name,
+.work_class,
+.ch_name {
     text-align: center;
     text-decoration: none;
 }
