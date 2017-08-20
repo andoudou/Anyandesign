@@ -16,6 +16,13 @@
     z-index: -1;
 }
 
+#wrap:hover>#banner {
+    -moz-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    transition: 5s;
+}
+
 #change {
     position: relative;
     margin-left: auto;

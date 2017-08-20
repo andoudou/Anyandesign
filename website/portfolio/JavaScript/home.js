@@ -17,6 +17,8 @@ var scroll = function() {
         $('#godownbtn').css("opacity", "0");
         $('.headline').css("opacity", "0");
         $('.headline').css("top", "50vmin");
+        $('.baudelaire').css("opacity", "0");
+        $('.baudelaire').css("margin-top", "60vh");
     } else {
         $('#navibar').css("position", "absolute");
         $('#navibar').css("background", "none");
@@ -32,6 +34,8 @@ var scroll = function() {
         $('#godownbtn').css("opacity", "1");
         $('.headline').css("opacity", "1");
         $('.headline').css("top", "42vmin");
+        $('.baudelaire').css("opacity", "1");
+        $('.baudelaire').css("margin-top", "45vh");
     }
 };
 

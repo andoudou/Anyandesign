@@ -148,13 +148,6 @@
     height: 100vmin;
 }
 
-#wrap:hover>#banner {
-    -moz-transform: scale(1.2, 1.2);
-    -webkit-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
-    transition: 5s;
-}
-
 .headline {
     position: fixed;
     width: 80%;
