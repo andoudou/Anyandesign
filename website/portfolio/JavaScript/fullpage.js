@@ -62,6 +62,6 @@ $(document).ready(function() {
     });
 
     $('.fullpage-scroll_projects').click(function() {
-        $.fn.fullpage.moveSectionDown();
+        $.fn.fullpage.moveTo(2, 0);
     });
 });
