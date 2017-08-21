@@ -5,7 +5,7 @@
     width: 100%;
     background: #f8f8f8;
     /*border: 4px solid #f1f1f1;*/
-    bottom: 35vmax;
+    bottom: calc(35 * (1vw + 1vh - 1vmin));
 }
 
 .catalogou {
@@ -14,12 +14,12 @@
     margin-right: auto;
     right: 0;
     left: 0;
-    padding: 8vmax 0 8vmax 0;
+    padding: calc(8 * (1vw + 1vh - 1vmin)) 0 calc(8 * (1vw + 1vh - 1vmin)) 0;
     text-align: center;
 }
 
 .catalogou h3 {
-    padding-bottom: 6vmax;
+    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
 .table {
@@ -103,7 +103,7 @@ a {
 /*
 #catalogou p {
     width: 100%;
-    padding-bottom: 6vmax;
+    padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
     font-size: 18pt;
     font-weight: 600;
 }
@@ -152,7 +152,7 @@ td a {
     margin-right: auto;
     right: 0;
     left: 0;
-    bottom: 4vmax;
+    bottom: calc(4 * (1vw + 1vh - 1vmin));
     color: #222;
     font-size: 14px;
     text-align: center;
@@ -201,7 +201,7 @@ td a {
     margin-right: auto;
     right: 0;
     left: 0;
-    bottom: 1vmax;
+    bottom: calc(1 * (1vw + 1vh - 1vmin));
     text-align: center;
     font-size: 10px;
     letter-spacing: 0;

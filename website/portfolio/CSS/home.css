@@ -38,12 +38,12 @@
     top: 100vmin;
     height: inherit;
     z-index: 50;
-    padding-bottom: 34vmax;
+    padding-bottom: calc(34 * (1vw + 1vh - 1vmin));
 }
 
 .page {
-    /*padding-top: 10vmax;*/
-    padding-bottom: 25vmax;
+    /*padding-top: calc(10 * (1vw + 1vh - 1vmin));*/
+    padding-bottom: calc(25 * (1vw + 1vh - 1vmin));
 }
 
 .row {
@@ -180,9 +180,9 @@
     -webkit-background-size: cover;
     background-size: 100%;
     position: absolute;
-    bottom: 0vmax;
+    bottom: 0;
     margin: 0;
     width: 100%;
-    height: 25vmax;
+    height: calc(25 * (1vw + 1vh - 1vmin));
     transition: all 0.5s;
 }

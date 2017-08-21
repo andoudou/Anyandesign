@@ -64,7 +64,7 @@
     right: 0;
     left: 0;
     position: relative;
-    padding: 12vmax 0;
+    padding: calc(12 * (1vw + 1vh - 1vmin)) 0;
     height: auto;
 }
 
@@ -359,6 +359,6 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 45vmax;
+    height: calc(45 * (1vw + 1vh - 1vmin));
     transition: all 0.5s;
 }

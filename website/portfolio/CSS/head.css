@@ -213,7 +213,7 @@
     right: 0;
     left: 0;
     position: relative;
-    padding: 12vmax 0;
+    padding: calc(12 * (1vw + 1vh - 1vmin)) 0;
     height: auto;
 }
 
