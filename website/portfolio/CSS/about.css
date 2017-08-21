@@ -17,7 +17,8 @@
 }
 
 #wrap {
-    position: relative;
+    position: absolute;
+    z-index: 51;
 }
 
 #wrap:hover>#banner {
@@ -308,44 +309,32 @@
 }
 
 #loveicon1 {
-    background: url('../images/icon/design.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 0 0;
     background-size: cover;
 }
 
 #loveicon2 {
-    background: url('../images/icon/reading.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 20% 0;
     background-size: cover;
 }
 
 #loveicon3 {
-    background: url('../images/icon/hiking.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 40% 0;
     background-size: cover;
 }
 
 #loveicon4 {
-    background: url('../images/icon/calligraphy.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 60% 0;
     background-size: cover;
 }
 
 #loveicon5 {
-    background: url('../images/icon/classical.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 80% 0;
     background-size: cover;
 }
 
 #loveicon6 {
-    background: url('../images/icon/chocolate.svg') no-repeat bottom;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+    background: url('../images/icon/love.svg') no-repeat 100% 0;
     background-size: cover;
 }
 
@@ -358,13 +347,9 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
-<<<<<<< HEAD
-    height: calc(45 * (1vw + 1vh - 1vmin));
-=======
     height: 100vh;
->>>>>>> Adjust
     transition: all 0.5s;
 }

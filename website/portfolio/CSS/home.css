@@ -23,6 +23,10 @@
     transition: 5s;
 }
 
+#wrap {
+    position: relative;
+}
+
 #change {
     position: relative;
     margin-left: auto;
@@ -33,9 +37,8 @@
 }
 
 .container {
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 100vmin;
     height: inherit;
     z-index: 50;
     padding-bottom: calc(34 * (1vw + 1vh - 1vmin));
@@ -183,6 +186,6 @@
     bottom: 0;
     margin: 0;
     width: 100%;
-    height: calc(25 * (1vw + 1vh - 1vmin));
+    height: 50vh;
     transition: all 0.5s;
 }
