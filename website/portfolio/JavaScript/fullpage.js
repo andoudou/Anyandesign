@@ -5,7 +5,6 @@ $(document).ready(function() {
         //Navigation
         menu: '#menu',
         lockAnchors: true,
-        anchors: ['firstPage', 'secondPage'],
         navigation: false,
         navigationPosition: 'top',
         navigationTooltips: ['', ''],
@@ -60,5 +59,9 @@ $(document).ready(function() {
         afterResponsive: function(isResponsive) {},
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+    });
+
+    $('.fullpage-scroll_projects').click(function() {
+        $.fn.fullpage.moveSectionDown();
     });
 });

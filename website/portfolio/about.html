@@ -16,10 +16,8 @@
     <script type="text/javascript" src="JavaScript/home.js"></script>
     <script type="text/javascript" src="JavaScript/fullpage.js"></script>
 
-
     <link rel="stylesheet" type="text/css" href="JavaScript/lib/fullpage.js/dist/jquery.fullpage.min.css" />
     <script type="text/javascript" src="JavaScript/lib/fullpage.js/dist/jquery.fullpage.min.js"></script>
-
 
     <link rel="shortcut icon" href="../favicon.ico" />
     <link rel="bookmark" href="../favicon.ico" />
@@ -59,7 +57,7 @@
                             <li class="underline">
                                 <h5 class="dropbtn">DOWNLOAD</h5>
                                 <div class="dropdown-content">
-                                    <a href="#" class="scroll_projects">
+                                    <a href="#" class="fullpage-scroll_projects">
                                         <h6 class="underline">PORTFOLIO</h6>
                                     </a>
                                     <a href="files/anyan_resume.pdf" target="_blank">
@@ -80,15 +78,14 @@
         </p>
         <h6 id="photoinfo">Dongji Island, Zhoushan／东极岛，舟山市 Oct. 2015</h6>
         <a>
-            <div id="godownbtn" class="scroll_projects"></div>
+            <div id="godownbtn" class="fullpage-scroll_projects"></div>
         </a>
-
     </div>
-
 
     <div class="container page" id="goingto">
         <div id="fullpage">
-            <div class="section" class="blanksection">
+            <div class="section fp-auto-height">
+                <div class="header-placeholder"></div>
             </div>
             <div class="section">
                 <div class="loveA">
@@ -199,38 +196,38 @@
             </div>
             <!--over-->
 
-            <!--底栏-->
-            <div class="section">
-                <div id="ground">
-                    <div id="sayhi">
-                        <ul id="connect">
-                            <li>
-                                <a href="mailto:andoudou92@icloud.com" class="connect">
-                                    <div id="connect1"></div>
-                                </a>
-                            </li>&nbsp; &nbsp; &nbsp;
-                            <li>
-                                <div class="tooltip connect" id="connect2">
-                                    <span class="tooltiptext"></span>
-                                </div>
-                            </li>&nbsp; &nbsp; &nbsp;
-                            <li>
-                                <a href="https://www.linkedin.com/in/yan-an/" target="_blank" class="connect">
-                                    <div id="connect3"></div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <a>
-                        <div id="top" class="scroll_top"></div>
-                    </a>
-
-                    <div id="rights"><a>© AnYan <span id="year"></span></a></div>
-                </div>
+            <div class="section fp-auto-height">
+                <div class="footer-placeholder"></div>
             </div>
         </div>
+        <!--底栏-->
+        <div id="ground">
+            <div id="sayhi">
+                <ul id="connect">
+                    <li>
+                        <a href="mailto:andoudou92@icloud.com" class="connect">
+                            <div id="connect1"></div>
+                        </a>
+                    </li>&nbsp; &nbsp; &nbsp;
+                    <li>
+                        <div class="tooltip connect" id="connect2">
+                            <span class="tooltiptext"></span>
+                        </div>
+                    </li>&nbsp; &nbsp; &nbsp;
+                    <li>
+                        <a href="https://www.linkedin.com/in/yan-an/" target="_blank" class="connect">
+                            <div id="connect3"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
+            <a>
+                <div id="top" class="scroll_top"></div>
+            </a>
+
+            <div id="rights"><a>© AnYan <span id="year"></span></a></div>
+        </div>
     </div>
 </body>
 
