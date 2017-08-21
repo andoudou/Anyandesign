@@ -40,6 +40,14 @@
     z-index: 50;
 }
 
+.header-placeholder {
+    height: 100vmin;
+}
+
+.footer-placeholder {
+    height: 100vh;
+}
+
 #godownbtn {
     position: absolute;
     background: url('../images/icon/godown.svg') no-repeat center;

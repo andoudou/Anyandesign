@@ -172,7 +172,7 @@
 }
 
 #photoinfo {
-    position: fixed;
+    position: absolute;
     bottom: 5vh;
     width: 80%;
     margin-left: auto;
