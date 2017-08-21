@@ -16,6 +16,10 @@
     z-index: -1;
 }
 
+#wrap {
+    position: relative;
+}
+
 #wrap:hover>#banner {
     -moz-transform: scale(1.2, 1.2);
     -webkit-transform: scale(1.2, 1.2);
@@ -31,10 +35,8 @@
     background: #fff;
     position: relative;
     width: 100%;
-    top: 100vmin;
     height: auto;
     z-index: 50;
-    padding-bottom: 110vh;
 }
 
 #godownbtn {
@@ -356,9 +358,13 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     height: calc(45 * (1vw + 1vh - 1vmin));
+=======
+    height: 100vh;
+>>>>>>> Adjust
     transition: all 0.5s;
 }
