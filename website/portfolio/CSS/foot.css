@@ -1,20 +1,12 @@
 /* catalogou */
 
-.catalogoubox {
-    position: absolute;
-    width: 100%;
-    background: #f8f8f8;
-    /*border: 4px solid #f1f1f1;*/
-    bottom: calc(35 * (1vw + 1vh - 1vmin));
-}
-
 .catalogou {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
-    padding: calc(8 * (1vw + 1vh - 1vmin)) 0 calc(8 * (1vw + 1vh - 1vmin)) 0;
+    padding: 15vh 0;
     text-align: center;
 }
 
@@ -55,48 +47,52 @@ a {
     right: 0;
     left: 0;
     margin-bottom: 40px;
-    transition: .2s;
+    transition: all .2s;
 }
 
 #catalogouicon1 {
-    background: url('../images/icon/interaction.svg') no-repeat center;
+    background: url('../images/icon/catalogou1.svg') no-repeat 0 0;
     background-size: cover;
 }
 
 #catalogouicon2 {
-    background: url('../images/icon/infographic.svg') no-repeat center;
+    background: url('../images/icon/catalogou1.svg') no-repeat 33.3% 0;
     background-size: cover;
 }
 
 #catalogouicon3 {
-    background: url('../images/icon/industrial.svg') no-repeat center;
+    background: url('../images/icon/catalogou1.svg') no-repeat 66.666667% 0;
     background-size: cover;
 }
 
 #catalogouicon4 {
-    background: url('../images/icon/other.svg') no-repeat center;
+    background: url('../images/icon/catalogou1.svg') no-repeat 100%;
     background-size: cover;
 }
 
 .queue:hover div {
-    transform: scale(1.2, 1.2);
-    transition: .8s;
+    transform: scale(1.3, 1.3);
+    transition: .5s;
 }
 
 .queue:hover #catalogouicon1 {
-    background: url('../images/icon/interaction2.svg') no-repeat center;
+    background: url('../images/icon/catalogou2.svg') no-repeat 0 0;
+    background-size: cover;
 }
 
 .queue:hover #catalogouicon2 {
-    background: url('../images/icon/infographic2.svg') no-repeat center;
+    background: url('../images/icon/catalogou2.svg') no-repeat 33.3% 0;
+    background-size: cover;
 }
 
 .queue:hover #catalogouicon3 {
-    background: url('../images/icon/industrial2.svg') no-repeat center;
+    background: url('../images/icon/catalogou2.svg') no-repeat 66.666667% 0;
+    background-size: cover;
 }
 
 .queue:hover #catalogouicon4 {
-    background: url('../images/icon/other2.svg') no-repeat center;
+    background: url('../images/icon/catalogou2.svg') no-repeat 100%;
+    background-size: cover;
 }
 
 
