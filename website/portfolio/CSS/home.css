@@ -181,7 +181,7 @@
     background: url('../images/whale2.jpg') no-repeat top;
     -moz-background-size: cover;
     -webkit-background-size: cover;
-    background-size: 100%;
+    background-size: cover;
     position: absolute;
     bottom: 0;
     margin: 0;

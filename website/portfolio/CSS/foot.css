@@ -173,11 +173,18 @@ td a {
     display: inline-block;
 }
 
-
-/*#connect1 {
+#connect1 {
     width: 30px;
     height: 30px;
     background: url('../images/icon/con1.svg') no-repeat 0 0;
+    background-size: 124px 30px;
+    transition: all .2s;
+}
+
+#connect1:hover {
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/con2.svg') no-repeat 0 0;
     background-size: 124px 30px;
 }
 
@@ -186,6 +193,14 @@ td a {
     height: 30px;
     background: url('../images/icon/con1.svg') no-repeat 50% 0;
     background-size: 124px 30px;
+    transition: all .2s;
+}
+
+#connect2:hover {
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/con2.svg') no-repeat 50% 0;
+    background-size: 124px 30px;
 }
 
 #connect3 {
@@ -193,7 +208,15 @@ td a {
     height: 30px;
     background: url('../images/icon/con1.svg') no-repeat 100% 0;
     background-size: 124px 30px;
-}*/
+    transition: all .2s;
+}
+
+#connect3:hover {
+    width: 30px;
+    height: 30px;
+    background: url('../images/icon/con2.svg') no-repeat 100% 0;
+    background-size: 124px 30px;
+}
 
 #rights {
     position: absolute;
