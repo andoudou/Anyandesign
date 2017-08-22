@@ -1,11 +1,9 @@
-@media (min-device-width: 550px) {
-    .container:after,
-    .row:after,
-    .u-cf {
-        content: "";
-        display: table;
-        clear: both;
-    }
+.container:after,
+.row:after,
+.u-cf {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 @media (min-device-width: 1025px) {
