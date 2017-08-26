@@ -21,7 +21,7 @@
     z-index: 51;
 }
 
-#wrap:hover>#banner {
+#wrap:hover #banner {
     -moz-transform: scale(1.2, 1.2);
     -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
