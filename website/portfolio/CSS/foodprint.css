@@ -2,13 +2,46 @@
     position: relative;
     width: 100%;
     height: auto;
+    z-index: -10;
+}
+
+.headline {
+    color: #59493f;
 }
 
 #part1 {
-    background: url('../images/projects/foodprint/foodprint.jpg') no-repeat top;
+    background: url('../images/projects/foodprint/foodprint1.jpg') no-repeat top;
     background-size: cover;
     width: 100%;
-    height: 640vw;
+    height: 146.5vw;
+}
+
+#part2 {
+    background: url('../images/projects/foodprint/foodprint2.jpg') no-repeat top;
+    background-size: cover;
+    width: 100%;
+    height: 156.5vw;
+}
+
+#part3 {
+    background: url('../images/projects/foodprint/foodprint3.jpg') no-repeat top;
+    background-size: cover;
+    width: 100%;
+    height: 133vw;
+}
+
+#part4 {
+    background: url('../images/projects/foodprint/foodprint4.jpg') no-repeat top;
+    background-size: cover;
+    width: 100%;
+    height: 142vw;
+}
+
+#part5 {
+    background: url('../images/projects/foodprint/foodprint5.jpg') no-repeat top;
+    background-size: cover;
+    width: 100%;
+    height: 22vw;
 }
 
 .catalogoubox {
