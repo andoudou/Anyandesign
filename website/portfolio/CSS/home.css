@@ -9,7 +9,7 @@
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
     background: url('../images/whale.jpg') no-repeat top;
-    background-attachment: fixed;
+    background-attachment: scroll;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;

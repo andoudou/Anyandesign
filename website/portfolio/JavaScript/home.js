@@ -34,7 +34,7 @@ var scroll = function() {
         $('#logo').css("background-size", "100%");
         $('#godownbtn').css("opacity", "1");
         $('.headline').css("opacity", "1");
-        $('.headline').css("top", "42vmin");
+        $('.headline').css("top", "44vmin");
         $('.baudelaire').css("opacity", "1");
         $('.baudelaire').css("margin-top", "45vh");
         $('#photoinfo').css("opacity", "1");

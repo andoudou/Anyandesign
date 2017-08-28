@@ -1,6 +1,6 @@
 /* catalogou */
 
-.catalogou {
+.catalogue {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.catalogou h3 {
+.catalogue h3 {
     padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
 }
 
@@ -40,7 +40,7 @@ a {
     line-height: 1.5;
 }
 
-.catalogouicon {
+.catalogueicon {
     width: 80px;
     height: 80px;
     margin-left: auto;
@@ -51,23 +51,23 @@ a {
     transition: all .2s;
 }
 
-#catalogouicon1 {
-    background: url('../images/icon/catalogou1.svg') no-repeat 0 0;
+#catalogueicon1 {
+    background: url('../images/icon/catalogue1.svg') no-repeat 0 0;
     background-size: cover;
 }
 
-#catalogouicon2 {
-    background: url('../images/icon/catalogou1.svg') no-repeat 33.3% 0;
+#catalogueicon2 {
+    background: url('../images/icon/catalogue1.svg') no-repeat 33.3% 0;
     background-size: cover;
 }
 
-#catalogouicon3 {
-    background: url('../images/icon/catalogou1.svg') no-repeat 66.666667% 0;
+#catalogueicon3 {
+    background: url('../images/icon/catalogue1.svg') no-repeat 66.666667% 0;
     background-size: cover;
 }
 
-#catalogouicon4 {
-    background: url('../images/icon/catalogou1.svg') no-repeat 100%;
+#catalogueicon4 {
+    background: url('../images/icon/catalogue1.svg') no-repeat 100%;
     background-size: cover;
 }
 
@@ -76,36 +76,36 @@ a {
     transition: .5s;
 }
 
-.queue:hover #catalogouicon1 {
-    background: url('../images/icon/catalogou2.svg') no-repeat 0 0;
+.queue:hover #catalogueicon1 {
+    background: url('../images/icon/catalogue2.svg') no-repeat 0 0;
     background-size: cover;
 }
 
-.queue:hover #catalogouicon2 {
-    background: url('../images/icon/catalogou2.svg') no-repeat 33.3% 0;
+.queue:hover #catalogueicon2 {
+    background: url('../images/icon/catalogue2.svg') no-repeat 33.3% 0;
     background-size: cover;
 }
 
-.queue:hover #catalogouicon3 {
-    background: url('../images/icon/catalogou2.svg') no-repeat 66.666667% 0;
+.queue:hover #catalogueicon3 {
+    background: url('../images/icon/catalogue2.svg') no-repeat 66.666667% 0;
     background-size: cover;
 }
 
-.queue:hover #catalogouicon4 {
-    background: url('../images/icon/catalogou2.svg') no-repeat 100%;
+.queue:hover #catalogueicon4 {
+    background: url('../images/icon/catalogue2.svg') no-repeat 100%;
     background-size: cover;
 }
 
 
 /*
-#catalogou p {
+#catalogue p {
     width: 100%;
     padding-bottom: calc(6 * (1vw + 1vh - 1vmin));
     font-size: 18pt;
     font-weight: 600;
 }
 
-#catalogou table {
+#catalogue table {
     width: 100%;
     text-align: left;
     font-size: 10pt;

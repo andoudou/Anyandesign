@@ -5,8 +5,8 @@
     z-index: -10;
 }
 
-.headline {
-    color: #59493f;
+.headlinecenter {
+    /*color: #59493f;*/
 }
 
 #part1 {
@@ -44,7 +44,7 @@
     height: 22vw;
 }
 
-.catalogoubox {
+.cataloguebox {
     position: relative;
     width: 100%;
     height: 100vh;
