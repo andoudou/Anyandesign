@@ -29,7 +29,8 @@
 }
 
 .queue a:hover {
-    color: #FF009D;
+    color: #aaa;
+    /*color: #FF009D;*/
     transition: .2s;
 }
 
