@@ -1,5 +1,8 @@
 "use strict";
 
+var startYPos = 0;
+var endYPos = 0;
+
 $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
@@ -62,6 +65,57 @@ $(document).ready(function() {
     });
 
     $('.fullpage-scroll_projects').click(function() {
-        $.fn.fullpage.moveTo(2, 0);
+        $.fn.fullpage.moveSectionDown();
     });
+
+    /**
+     * As IE >= 10 fires both touch and mouse events when using a mouse in a touchscreen
+     * this way we make sure that is really a touch event what IE is detecting.
+     */
+    var isReallyTouch = function(e) {
+        //if is not IE   ||  IE is detecting `touch` or `pen`
+        return typeof e.pointerType === 'undefined' || e.pointerType != 'mouse';
+    }
+
+    $('#wrap').on('touchstart', function(e) {
+        if (!isReallyTouch(e)) {
+            return;
+        }
+        startYPos = e.originalEvent.touches[0].pageY;
+    })
+
+    $('#wrap').on('touchmove', function(e) {
+        if (!isReallyTouch(e)) {
+            return;
+        }
+        endYPos = e.originalEvent.touches[0].pageY;
+
+        if (Math.abs(startYPos - endYPos) > ($(window).height() / 100 * 15)) {
+            if (startYPos > endYPos) {
+                console.log("fired");
+                $.fn.fullpage.moveSectionDown();
+            }
+        }
+    })
+
+    $('#ground').on('touchstart', function(e) {
+        if (!isReallyTouch(e)) {
+            return;
+        }
+        startYPos = e.originalEvent.touches[0].pageY;
+    })
+
+    $('#ground').on('touchmove', function(e) {
+        if (!isReallyTouch(e)) {
+            return;
+        }
+        endYPos = e.originalEvent.touches[0].pageY;
+
+        if (Math.abs(startYPos - endYPos) > ($(window).height() / 100 * 15)) {
+            if (startYPos < endYPos) {
+                console.log("fired");
+                $.fn.fullpage.moveSectionUp();
+            }
+        }
+    })
 });
