@@ -45,7 +45,7 @@
 }
 
 .footer-placeholder {
-    height: 100vh;
+    height: 100%;
 }
 
 #godownbtn {
@@ -93,14 +93,14 @@
 .loveA {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #fff;
 }
 
 .loveB {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #F4F4F4;
 }
 
