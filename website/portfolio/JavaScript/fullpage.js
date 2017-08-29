@@ -2,6 +2,8 @@
 
 var startYPos = 0;
 var endYPos = 0;
+var scrolled = false;
+var touchSensitivity = 15;
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
@@ -39,7 +41,7 @@ $(document).ready(function() {
         scrollOverflow: false,
         scrollOverflowReset: null,
         scrollOverflowOptions: true,
-        touchSensitivity: 15,
+        touchSensitivity: touchSensitivity,
         normalScrollElementTouchThreshold: 5,
         bigSectionsDestination: null,
 
@@ -75,47 +77,39 @@ $(document).ready(function() {
     var isReallyTouch = function(e) {
         //if is not IE   ||  IE is detecting `touch` or `pen`
         return typeof e.pointerType === 'undefined' || e.pointerType != 'mouse';
-    }
+    };
 
-    $('#wrap').on('touchstart', function(e) {
+    $('#wrap, #ground').on('touchstart', function(e) {
         if (!isReallyTouch(e)) {
             return;
         }
         startYPos = e.originalEvent.touches[0].pageY;
-    })
+    });
 
-    $('#wrap').on('touchmove', function(e) {
+    $('#wrap, #ground').on('touchmove', function(e) {
         if (!isReallyTouch(e)) {
             return;
         }
         endYPos = e.originalEvent.touches[0].pageY;
 
         if (Math.abs(startYPos - endYPos) > ($(window).height() / 100 * 15)) {
-            if (startYPos > endYPos) {
-                console.log("fired");
-                $.fn.fullpage.moveSectionDown();
+            if (!scrolled) {
+                if (startYPos > endYPos) {
+                    $.fn.fullpage.moveSectionDown();
+                    console.log("fired down");
+                } else {
+                    $.fn.fullpage.moveSectionUp();
+                    console.log("fired up");
+                }
+                scrolled = true;
             }
         }
-    })
+    });
 
-    $('#ground').on('touchstart', function(e) {
+    $('#wrap, #ground').on('touchend', function(e) {
         if (!isReallyTouch(e)) {
             return;
         }
-        startYPos = e.originalEvent.touches[0].pageY;
-    })
-
-    $('#ground').on('touchmove', function(e) {
-        if (!isReallyTouch(e)) {
-            return;
-        }
-        endYPos = e.originalEvent.touches[0].pageY;
-
-        if (Math.abs(startYPos - endYPos) > ($(window).height() / 100 * 15)) {
-            if (startYPos < endYPos) {
-                console.log("fired");
-                $.fn.fullpage.moveSectionUp();
-            }
-        }
-    })
+        scrolled = false;
+    });
 });
