@@ -47,6 +47,6 @@
 .cataloguebox {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100vmin;
     background: RGBA(237, 240, 245, 1.00);
 }
