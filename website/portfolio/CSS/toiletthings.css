@@ -6,20 +6,16 @@
 }
 
 .headlineleft {
-    position: absolute;
+    position: relative;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
-    top: 40vmin;
+    padding-top: 40vmin;
+    padding-bottom: 20vmin;
     text-align: left;
     transition: all 0.5s;
-}
-
-#part1 {
-    width: 100%;
-    height: 100vh;
 }
 
 #text {
@@ -29,12 +25,12 @@
 
 #expo {
     position: absolute;
-    top: 0;
+    top: 40vmin;
     right: 0;
     background: url('../images/projects/toiletthings/mall.jpg') no-repeat top;
     background-size: contain;
-    width: 50%;
-    height: 100%;
+    width: 45%;
+    height: 45%;
 }
 
 #part2 {

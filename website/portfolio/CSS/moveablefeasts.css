@@ -6,20 +6,17 @@
 }
 
 .headlineleft {
-    position: absolute;
+    position: relative;
     width: 80%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     right: 0;
     left: 0;
-    top: 34vmin;
+    padding-top: 35vmin;
+    padding-bottom: 20vmin;
     text-align: left;
     transition: all 0.5s;
-}
-
-#part1 {
-    width: 100%;
-    height: 100vh;
 }
 
 #org {
@@ -37,12 +34,12 @@
 
 #expo {
     position: absolute;
-    top: 0;
+    top: 35vmin;
     right: 0;
     background: url('../images/projects/moveablefeasts/Expo.jpg') no-repeat top;
     background-size: cover;
     width: 40%;
-    height: 100%;
+    height: 45%;
 }
 
 #part2 {
