@@ -1,0 +1,75 @@
+.party {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+}
+
+.headlineleft {
+    background: linear-gradient( 0deg, #fff, #eee);
+    position: relative;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    padding-top: 35vmin;
+    padding-bottom: 30vmin;
+    text-align: left;
+    transition: all 0.5s;
+}
+
+#text {
+    width: 45%;
+    height: 100%;
+}
+
+#org {
+    background: url('../images/projects/lightingroom/philips.svg') no-repeat left;
+    ;
+    background-size: contain;
+    width: 20em;
+    height: 1em;
+    margin: 0.5em 0.1em;
+}
+
+#house {
+    position: absolute;
+    top: 30vmin;
+    right: 0;
+    background: url('../images/projects/lightingroom/house.png') no-repeat top;
+    background-size: contain;
+    width: 50%;
+    height: 60%;
+}
+
+#part8 {
+    background: #EEEEEE;
+    padding: 0;
+    margin: 0;
+}
+
+.video {
+    width: 100%;
+    background: #EEEEEE;
+    text-align: center;
+}
+
+.video iframe {
+    width: 960px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    margin: 10%;
+}
+
+.cataloguebox {
+    position: relative;
+    width: 100%;
+    height: 100vmin;
+    background: #ffffff;
+}
