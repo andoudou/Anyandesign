@@ -81,6 +81,14 @@
 .cataloguebox {
     position: relative;
     width: 100%;
-    height: 100vmin;
     background: #ffffff;
+    padding-bottom: 2vh;
+}
+
+#sayhi {
+    position: relative;
+}
+
+#rights {
+    position: relative;
 }
