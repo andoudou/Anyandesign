@@ -133,7 +133,7 @@
 }
 
 #picture1 {
-    background: url('../images/thumbnail/food.jpg') no-repeat center;
+    background: url('../images/thumbnail/foodprint.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -143,7 +143,7 @@
 }
 
 #picture3 {
-    background: url('../images/thumbnail/wall.jpg') no-repeat center;
+    background: url('../images/thumbnail/performingwall.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -153,17 +153,17 @@
 }
 
 #picture5 {
-    background: url('../images/thumbnail/leyue.jpg') no-repeat center;
-    background-size: cover;
-}
-
-#picture6 {
     background: url('../images/thumbnail/lightingroom.jpg') no-repeat center;
     background-size: cover;
 }
 
+#picture6 {
+    background: url('../images/thumbnail/leyue.jpg') no-repeat center;
+    background-size: cover;
+}
+
 #picture7 {
-    background: url('../images/thumbnail/bike.jpg') no-repeat center;
+    background: url('../images/thumbnail/meetxian.jpg') no-repeat center;
     background-size: cover;
 }
 
@@ -173,7 +173,7 @@
 }
 
 #picture9 {
-    background: url('../images/thumbnail/furniture.jpg') no-repeat center;
+    background: url('../images/thumbnail/morethanone.jpg') no-repeat center;
     background-size: cover;
 }
 

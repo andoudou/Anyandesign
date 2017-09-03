@@ -179,6 +179,7 @@
     left: 0;
     top: -4vmin;
     text-align: center;
+    font-weight: 600;
 }
 
 #photoinfo {
@@ -234,8 +235,8 @@
     right: 0;
     left: 0;
     text-align: center;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 #explor:hover {
