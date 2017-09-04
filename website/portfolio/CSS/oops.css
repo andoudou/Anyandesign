@@ -1,0 +1,39 @@
+#banner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../images/oops.jpg') no-repeat center;
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+}
+
+.headlinecenter {
+    width: 100%;
+    padding: 5% 0;
+    background: #fff;
+    top: 30vmin;
+}
+
+.headlinecenter h2 {
+    font-weight: 500;
+}
+
+#homebutton {
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    background: #000;
+    width: 150px;
+    height: 36px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#homebutton h5 {
+    text-align: center;
+    line-height: 38px;
+}
