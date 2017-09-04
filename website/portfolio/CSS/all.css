@@ -88,7 +88,7 @@
 .intro h3 {
     position: absolute;
     line-height: 1;
-    margin: 25px 0;
+    padding: 25px 0;
 }
 
 .intro div {
@@ -97,17 +97,12 @@
 }
 
 .intro h5 {
-    font-style: italic;
-    font-weight: 400;
-    line-height: 3;
+    font-weight: 200;
+    line-height: 2;
     color: #aaa;
 }
 
-.intro p {
-    line-height: 1.5;
-}
-
-.intro:hover p {
+.intro:hover h6 {
     color: #aaa;
     transition: .2s;
 }
