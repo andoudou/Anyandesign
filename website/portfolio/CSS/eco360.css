@@ -42,15 +42,8 @@
     height: 45%;
 }
 
-#part2 {
-    background: url('../images/projects/eco360/CJM.jpg') no-repeat top;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-    right: 0;
-    left: 0;
-    width: 80%;
-    height: 100vh;
+.content {
+    text-align: center;
 }
 
 .cataloguebox {

@@ -29,55 +29,6 @@
     height: 100vh;
 }
 
-#part2 {
-    background: url('../images/projects/leyue/leyue2.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 69vw;
-}
-
-#part3 {
-    background: url('../images/projects/leyue/leyue3.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 138vw;
-}
-
-#part4 {
-    background: url('../images/projects/leyue/leyue4.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 220vw;
-}
-
-#part5 {
-    background: url('../images/projects/leyue/leyue5.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 179vw;
-}
-
-#part6 {
-    background: url('../images/projects/leyue/leyue6.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 65vw;
-}
-
-#part7 {
-    background: url('../images/projects/leyue/leyue7.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 74vw;
-}
-
-#part8 {
-    background: url('../images/projects/leyue/leyue8.jpg') no-repeat top;
-    background-size: cover;
-    width: 100%;
-    height: 116vw;
-}
-
 .cataloguebox {
     position: relative;
     width: 100%;
