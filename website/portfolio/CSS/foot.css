@@ -150,7 +150,6 @@ td a {
     right: 0;
     left: 0;
     bottom: calc(4 * (1vw + 1vh - 1vmin));
-    color: #222;
     font-size: 14px;
     text-align: center;
 }
@@ -226,7 +225,6 @@ td a {
     font-size: 10px;
     letter-spacing: 0;
     font-weight: 100;
-    color: #222;
 }
 
 .tooltip {

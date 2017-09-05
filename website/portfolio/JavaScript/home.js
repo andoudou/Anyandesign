@@ -9,7 +9,6 @@ var scroll = function() {
         $('#navibar').css("height", "48px");
         $('#bar').css("padding-top", "0");
         /*$('.bar').css("width","80%");*/
-        $('.menu').css("color", "#222");
         $('#bar').css("letter-spacing", "1px");
         $('#bar').css("width", "96%");
         $('#logo').css("background", "url('http://www.anyandesign.cn/portfolio/images/icon/logo2.svg') no-repeat center");
@@ -27,7 +26,6 @@ var scroll = function() {
         $('#navibar').css("height", "160px");
         $('#bar').css("padding-top", "110px");
         /*$('.bar').css("width","70%");*/
-        $('.menu').css("color", "#222");
         $('#bar').css("letter-spacing", "2px");
         $('#bar').css("width", "80%");
         $('#logo').css("background", "url('http://www.anyandesign.cn/portfolio/images/icon/logo1.svg') no-repeat center");
