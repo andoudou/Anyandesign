@@ -35,8 +35,6 @@
 .cataloguebox {
     position: relative;
     width: 100%;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.9);
     padding-bottom: 2vh;
 }
 
@@ -44,16 +42,7 @@
     position: relative;
 }
 
-#rights {
-    color: #fff;
-    position: relative;
-}
-
 .menu,
 .underline {
-    color: #fff;
-}
-
-.queue a {
     color: #fff;
 }

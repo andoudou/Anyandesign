@@ -83,6 +83,10 @@ $(document).ready(function() {
     scroll();
     rotate([$("#s2"), $("#s3"), $("#s4")], 0, 2000);
 
+
+    $('.burger,#goback').on('click', function() {
+        $('.simplenavi').fadeToggle('500');
+    });
     // 延时加载图片
     /*var $img = $('img');
     $img.hide().each(function(index) {
