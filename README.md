@@ -1,2 +1,2 @@
 # anyandesign
-## This is for www.anyandesign.cn
+## This is for www.anyandesign.com
